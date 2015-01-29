@@ -1,0 +1,65 @@
+Body
+{
+	background-image: url(mobi/background.png);
+}
+
+.qxAboutBox
+{
+	background-color:#FFFFFF;
+}
+
+.qxAboutLogo
+{
+	background-image:url(startup/logo.png);
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: 128px 128px;
+	width: 128px;
+	height: 128px;	
+}
+
+.AppLogo
+{
+	background-image: url(startup/logo.png);
+	width: 128px;
+	height: 128px;
+}
+
+.Container
+{
+	background-color: peru;
+}
+
+.CEREMA1
+{
+	background-image: url(mobi/logoDTerMed.png);
+	background-color: white;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: 300px 128px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	height: 128px;
+}
+
+.CEREMA2
+{
+	background-image: url(mobi/Cerema_Quadri_Grand.png);
+	background-color: white;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: 300px 128px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	height: 128px;
+}
+
+.CEREMA3
+{
+	color: blue;
+}
+
+.TEXTO
+{
+	padding: 10px;
+}
