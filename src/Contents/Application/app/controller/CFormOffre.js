@@ -7,7 +7,8 @@ App.controller.define('CFormOffre', {
 		],
 		
 		models: [
-		"getAppelOffreById"
+		"getAppelOffreById",
+		"getPDFviewer"
 		],
 				
 		control: 
