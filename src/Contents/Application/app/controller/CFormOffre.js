@@ -3,7 +3,8 @@ App.controller.define('CFormOffre', {
 	config : {
 	//Déclaration des controllers
 		views: [
-		"VFormOffre"
+		"VFormOffre",
+		"VFormPDF"
 		],
 		
 		models: [
@@ -48,6 +49,7 @@ App.controller.define('CFormOffre', {
 		App.gestionao.getPDFviewer(REPONSE.appeloffre, function(err, response){
 		// console.log("Le PDF est lu!");
 		console.log(response);
+		var pdf = 
 		});
 	}
 	

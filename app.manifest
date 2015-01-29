@@ -57,7 +57,8 @@
         "CFormContact",
         "CFormRecherche",
         "CListeRechercheAppelOffre",
-        "CFormRechercheOffre"
+        "CFormRechercheOffre",
+        "CFormPDF"
     ],
     "api": [
         "gestionao"
