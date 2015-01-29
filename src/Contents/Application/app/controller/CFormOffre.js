@@ -3,8 +3,7 @@ App.controller.define('CFormOffre', {
 	config : {
 	//Déclaration des controllers
 		views: [
-		"VFormOffre",
-		"VFormPDF"
+		"VFormOffre"
 		],
 		
 		models: [
@@ -44,13 +43,7 @@ App.controller.define('CFormOffre', {
 	},
 	boutonPDF_onTap: function()
 	{
-		// console.log("Il ne se passe rien!!");
-		// App.gestion.getAppelOffreById;
-		App.gestionao.getPDFviewer(REPONSE.appeloffre, function(err, response){
-		// console.log("Le PDF est lu!");
-		console.log(response);
-		var pdf = 
-		});
+		App.get('VListeDomaine').push(App.view.create('VFormPDF'));
 	}
 	
 	
