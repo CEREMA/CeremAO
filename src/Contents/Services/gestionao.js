@@ -39,6 +39,11 @@ gestionao = {
 	{
 		var db=gestionao.using('db');
 		db.model('gestionao',db.sql('reqNombreOffres'), cb);
+	},
+	getPDFviewer: function(o, cb)
+	{
+		var db=gestionao.using('db');
+		db.model('gestionao', db.sql('reqPDF', {pdf : o.extraParamFormulaireAppelOffre}), cb);
 	}
 };
 
