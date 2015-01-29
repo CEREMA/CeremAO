@@ -13,11 +13,8 @@ App.controller.define('CFormPDF', {
 				
 		control: 
 		{
-			"VFormOffre" : {
-				show: "VFormOffre_onShow"
-			},
-			"VFormOffre button#boutonPDF": {
-				tap: 'boutonPDF_onTap'
+			"VFormPDF" : {
+				show: "VFormPDF_onShow"
 			}
 		}
 	},
