@@ -1,4 +1,4 @@
-App.model.define('getAppelOffre',
+App.model.define('getPDFviewer',
 {
 	config: {
 		api: {
