@@ -2,7 +2,7 @@
     "namespace": "com.mobile.Ceremao",
     "git": "https://github.com/PellegriniPierre",
     "title": "com.mobile.Ceremao",
-    "description": "Package description goes here",
+    "description": "A mobile app for CEREMA",
     "platform": "mobile",
     "uid": "42ba1204-e501-4879-b7cb-e7f48feb634f",
     "version": "1.00",
