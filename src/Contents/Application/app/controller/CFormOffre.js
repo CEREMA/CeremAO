@@ -45,6 +45,7 @@ App.controller.define('CFormOffre', {
 		console.log("Il ne se passe rien!!");
 		App.gestionao.getPDFviewer(REPONSE.appeloffre, function(err, response){
 		console.log("Le PDF est lu!");
+		console.log(response);
 		});
 	}
 	
