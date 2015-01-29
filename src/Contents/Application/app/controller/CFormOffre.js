@@ -43,10 +43,10 @@ App.controller.define('CFormOffre', {
 	},
 	boutonPDF_onTap: function()
 	{
-		console.log("Il ne se passe rien!!");
-		App.gestion.getAppelOffreById;
+		// console.log("Il ne se passe rien!!");
+		// App.gestion.getAppelOffreById;
 		App.gestionao.getPDFviewer(REPONSE.appeloffre, function(err, response){
-		console.log("Le PDF est lu!");
+		// console.log("Le PDF est lu!");
 		console.log(response);
 		});
 	}
