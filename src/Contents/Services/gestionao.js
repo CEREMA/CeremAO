@@ -40,7 +40,7 @@ gestionao = {
 		var db=gestionao.using('db');
 		db.model('gestionao',db.sql('reqNombreOffres'), cb);
 	},
-	getPDFviewer: function(o, cb)
+	getPDFviewer: function(id, cb)
 	{
 		var db=gestionao.using('db');
 		db.model('gestionao', db.sql('reqPDF', {pdf : id}), cb);
